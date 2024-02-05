@@ -51,7 +51,7 @@ def prepare_data(data):
         print(e)
         return [None,None]
 
-def dataframe_from_file(number, file_name = ALL_FILES[0]):
+def dataframe_from_file(number, file_name = 'train.txt'):
     print(f'getting {number} articles from file: {file_name}')
     global file_size
     counter = 0
